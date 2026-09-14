@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MTX Intelligent Document Processing</title>
+  <desc id="desc">Abstract source document connected to governed structured information</desc>
+  <rect width="1200" height="630" fill="#071725"/>
+  <circle cx="1060" cy="40" r="280" fill="none" stroke="#1b4d58" stroke-width="2"/>
+  <circle cx="1060" cy="40" r="210" fill="none" stroke="#123845" stroke-width="2"/>
+  <text x="80" y="94" fill="#2bd3c2" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">MTX FINANCIAL SERVICES</text>
+  <text x="80" y="162" fill="#ffffff" font-family="Arial, sans-serif" font-size="45" font-weight="700">Intelligent Document Processing</text>
+  <g transform="translate(85 228)">
+    <rect width="285" height="310" rx="9" fill="#f7fafb"/>
+    <rect x="34" y="38" width="100" height="17" rx="3" fill="#1f3e54"/>
+    <rect x="34" y="78" width="215" height="8" rx="3" fill="#cfdae1"/>
+    <rect x="34" y="108" width="181" height="8" rx="3" fill="#cfdae1"/>
+    <rect x="30" y="139" width="225" height="47" rx="4" fill="#dff6f3" stroke="#20ad9f" stroke-width="3"/>
+    <rect x="34" y="211" width="205" height="8" rx="3" fill="#cfdae1"/>
+    <rect x="34" y="240" width="162" height="8" rx="3" fill="#cfdae1"/>
+  </g>
+  <path d="M402 384H541" fill="none" stroke="#2bd3c2" stroke-width="5" stroke-dasharray="10 10"/>
+  <path d="M524 367l21 17-21 17" fill="none" stroke="#2bd3c2" stroke-width="5"/>
+  <g transform="translate(580 228)">
+    <rect width="520" height="310" rx="12" fill="#0e2b3e" stroke="#31556a" stroke-width="2"/>
+    <text x="34" y="48" fill="#91a8b8" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">GOVERNED INFORMATION</text>
+    <g transform="translate(34 77)">
+      <rect width="452" height="53" rx="5" fill="#14374b"/>
+      <text x="18" y="22" fill="#8ba2b2" font-family="Arial, sans-serif" font-size="12">DOCUMENT TYPE</text>
+      <text x="18" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">Business application</text>
+      <rect x="371" y="15" width="62" height="24" rx="12" fill="#174e50"/>
+      <text x="385" y="32" fill="#72e1d6" font-family="Arial, sans-serif" font-size="12" font-weight="700">97%</text>
+    </g>
+    <g transform="translate(34 145)">
+      <rect width="452" height="53" rx="5" fill="#14374b"/>
+      <text x="18" y="22" fill="#8ba2b2" font-family="Arial, sans-serif" font-size="12">SOURCE TRACEABILITY</text>
+      <text x="18" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">Application · page 1 · field 04</text>
+    </g>
+    <g transform="translate(34 213)">
+      <rect width="452" height="65" rx="5" fill="#3d321d" stroke="#765e2f"/>
+      <text x="18" y="25" fill="#f0c578" font-family="Arial, sans-serif" font-size="12" font-weight="700">REVIEW RECOMMENDED</text>
+      <text x="18" y="49" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Source values require comparison</text>
+    </g>
+  </g>
+</svg>
