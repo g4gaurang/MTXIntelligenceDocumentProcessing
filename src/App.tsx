@@ -42,9 +42,11 @@ function TabList({ items, selected, onSelect, label }: { items: string[]; select
 function DemoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [sent, setSent] = useState(false)
   const closeRef = useRef<HTMLButtonElement>(null)
+  const previousFocus = useRef<HTMLElement | null>(null)
   const titleId = useId()
   useEffect(() => {
     if (!open) return
+    previousFocus.current = document.activeElement instanceof HTMLElement ? document.activeElement : null
     closeRef.current?.focus()
     const onKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose()
@@ -59,7 +61,11 @@ function DemoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
     }
     document.body.classList.add('modal-open')
     document.addEventListener('keydown', onKey)
-    return () => { document.body.classList.remove('modal-open'); document.removeEventListener('keydown', onKey) }
+    return () => {
+      document.body.classList.remove('modal-open')
+      document.removeEventListener('keydown', onKey)
+      previousFocus.current?.focus()
+    }
   }, [open, onClose])
   if (!open) return null
   const submit = (event: FormEvent) => { event.preventDefault(); setSent(true) }
